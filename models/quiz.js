@@ -4,5 +4,6 @@
   return sequelize.define('Quiz',
             { pregunta:  DataTypes.STRING,
               respuesta: DataTypes.STRING,
+              tipo: DataTypes.STRING,
 	});
 }
